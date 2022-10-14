@@ -1,4 +1,4 @@
-const button = document.getElementById("button")
+dconst button = document.getElementById("button")
 
 const alertMessage = function () {
   alert("クリックしたね")
