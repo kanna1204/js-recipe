@@ -64,7 +64,7 @@ const quizzes = [
       },
       {
         text: "丸亀城",
-        isCorrect: true,
+        isCorrect: false,
         feedback: "残念！どこからどうみても丸亀城ではないよ。",
       },
       {

@@ -32,11 +32,6 @@ const reloadQuiz = function () {
   choice2.textContent = quiz.choices[1].text
   choice3.textContent = quiz.choices[2].text
 }
-const feedbacks = [
-  "残念！ゴリアテは、旧聖書に登場するダビデに石で殺される巨人だよ",
-  "残念‼ゼニガメは、クサガメまたはニホンイシガメの幼体だよ",
-  "正解！ガニメデは、木星の第三惑星だよ",
-]
 const choose = function (choiceNumber) {
   feedback.textContent = quiz.choices[choiceNumber].feedback
 }
