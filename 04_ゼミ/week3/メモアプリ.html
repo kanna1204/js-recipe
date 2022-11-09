@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>メモアプリ</title>
+  </head>
+  <body>
+    <h1>メモアプリ</h1>
+    <div>
+      <input type="text" id="input-text" />
+      <button id="add-button">追加</button>
+    </div>
+    <div id="add-content"></div>
+  </body>
+  <script>
+    const inputText = document.getElementById("input-text")
+    const addButton = document.getElementById("add-button")
+    const content = document.getElementById("add-content")
+
+    addButton.onclick = function () {
+      let text = inputText.value
+      console.log(text)
+      const newDiv = document.createElement("div")
+      newDiv.textContent = text
+      content.append(newDiv)
+    }
+  </script>
+</html>
